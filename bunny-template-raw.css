@@ -169,13 +169,14 @@ button#label_currentChannel {
 }
 
 .s-chat-message_content {
-    background: #000000 !important;
+    background: none !important;
     color: #FFFFFF !important;
     border: none !important;
 }
 
-.-chat-message__pinned {
+.s-chat-message_pinned {
     background: #0000000 !important;
+    color: #FFFFFF !important;
     border: 1px dashed #FFFFFF !important;
 }
 
