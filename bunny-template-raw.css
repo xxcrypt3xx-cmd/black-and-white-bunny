@@ -436,3 +436,16 @@ img[src$="gold.png"] {
     color: #FFFFFF !important;
     box-shadow: none !important;
 }
+
+.commentBox {
+height: 300px;
+width: 708px;
+overflow: hidden;
+margin-bottom: 10px;
+transition: height 0.8s;
+}
+
+.commentBox:hover {
+height: 100%;
+overflow: auto;
+}
