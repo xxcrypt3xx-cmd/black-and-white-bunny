@@ -88,13 +88,11 @@ div.container.main {
 .mound-grid {
     background: #000000 !important;
     color: #FFFFFF !important;
-    text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF; !important;
-    transition: 0.8s !important;
     border: 1px solid #FFFFFF !important;
     border-radius: 15px !important;
 }
 
-.mound-grid:hover {
+.cave-grid:hover {
     text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF; !important;
     transition: 0.8s !important;
 }
