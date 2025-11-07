@@ -92,7 +92,7 @@ div.container.main {
     border-radius: 15px !important;
 }
 
-.cave-grid:hover {
+.mound-grid:hover {
     text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF; !important;
     transition: 0.8s !important;
 }
