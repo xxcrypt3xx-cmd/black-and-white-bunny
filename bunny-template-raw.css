@@ -176,10 +176,13 @@ button#label_currentChannel {
     border: none !important;
 }
 
-.s-chat-message_pinned {
-    background: #0000000 !important;
+div#chatMessagePinned {
+    background: #000000 !important;
     color: #FFFFFF !important;
-    border: 1px dashed #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 15px; !important;
+}
+
 }
 
 h1 { 
@@ -440,14 +443,14 @@ img[src$="gold.png"] {
 }
 
 .commentBox {
-height: 300px;
-width: 708px;
-overflow: hidden;
-margin-bottom: 10px;
-transition: height 0.8s;
+height: 36px !important;
+width: 837px !important;
+overflow: hidden !important;
+margin-bottom: 10px !important;
 }
 
 .commentBox:hover {
-height: 100%;
-overflow: auto;
+height: 100% !important;
+overflow: auto !important;
+transition: height 0.8s !important;
 }
