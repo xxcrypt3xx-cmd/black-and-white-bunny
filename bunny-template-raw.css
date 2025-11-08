@@ -180,9 +180,6 @@ div#chatMessagePinned {
     background: #000000 !important;
     color: #FFFFFF !important;
     border: 1px solid #FFFFFF !important;
-    border-radius: 15px; !important;
-}
-
 }
 
 h1 { 
@@ -447,10 +444,3 @@ height: 36px !important;
 width: 837px !important;
 overflow: hidden !important;
 margin-bottom: 10px !important;
-}
-
-.commentBox:hover {
-height: 100% !important;
-overflow: auto !important;
-transition: height 0.8s !important;
-}
