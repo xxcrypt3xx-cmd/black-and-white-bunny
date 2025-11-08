@@ -126,10 +126,6 @@ col-xs-2 {
     border-bottom: 1px solid #FFFFFF !important;
 }
 
-div.topbar>img.icon {
-    content: url('https://iili.io/Ktqtrsj.jpg') !important;
-    }
-
 .sidebar {
     background: none !important;
     color: #FFFFFF !important;
@@ -440,7 +436,8 @@ img[src$="gold.png"] {
 }
 
 .commentBox {
-height: 36px !important;
-width: 837px !important;
-overflow: hidden !important;
-margin-bottom: 10px !important;
+    height: 36px !important;
+    width: 837px !important;
+    overflow: hidden !important;
+    margin-bottom: 10px !important;
+}
