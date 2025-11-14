@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+body {
+background: url('https://iili.io/KQwZbku.jpg') no-repeat center center fixed !important;
+color: none !important;
+background-size: cover !important;
+}
+
+.col-md-9.col-xs-12 {
+background: none !important;
+border: 4px double #FFFFFF !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom: none !important;
+}
+
+div.container.main {
+background: rgba(0, 0, 0, 0.5) !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+}
+
+.navbar {
+background: #000000 !important;
+border: 1px solid #FFFFFF !important;
+border-bottom: none !important;
+border-top: none !important;
+border-right: none !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+font-family: 'Bitcount Grid Single';
+}
+
+navbar li a {
+color: #FFFFFF !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #FFFFFF !important;
+border: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 40px #FFFFFF;
+text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+transition: 0.8s !important;
+}
+
+.navbar-header > a > img {
+content: url('https://iili.io/KQyUVp9.png') !important;
+width: 100px;
+}
+
+.breadcrumb {
+background: #000000 !important;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+}
+
+.breadcrumb::after {
+content: "CSS by Blub-Blub (#519615)";
+position: absolute;
+right: 20%;
+z-index: 100;
+color: #FFFFFF;
+}
+
+.feature {
+background: #000000 !important;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+}
+
+.topbar {
+background: #000000 !important;
+color: #FFFFFF !important;
+border: none !important;
+border-top: none !important;
+border-bottom: 4px solid #FFFFFF !important;
+}
+
+.sidebar {
+background: none !important;
+color: #FFFFFF !important;
+border: none !important;
+}
+
+.panel {
+background: #000000 !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+}
+
+.s-chat-message-nth:child(even) {
+background: #0000000 !important;
+color: #FFFFFFF !important;
+border: 1px solid #FFFFFF !important;
+}
+
+.s-chat-message-nth:child(odd) {
+background: #1F1F1F !important;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF !important;
+}
+
+.s-chat-message_timestamp {
+color: #FFFFFF !important;
+}
+
+.s-chat-message_content {
+background: none !important;
+color: #FFFFFF !important;
+border: none !important;
+}
+
+#chatMessageContainer {
+color: #FFFFFFF !important;
+border: none !important;
+}
+
+button#label_currentChannel {
+background: #000000 !important;
+color: #FFFFFFF !important;
+border: none !important;
+}
+
+#chatMessagePinned {
+background: #0000000 !important;
+color: #FFFFFFF !important;
+border: none !important;
+}
+
+h1 {
+text-align: left !important;
+color: #FFFFFF !important;
+font-family: 'Bitcount Grid Single';
+}
+
+h3 {
+text-align: center !important;
+color: #FFFFFF !important;
+font-family: 'Bitcount Grid Single';
+}
+
+.top, th, .bottom, .left, td, .right_cub {
+background: #000000 !important;
+color: #FFFFFFF !important;
+border: 1px solid #FFFFFFF !important;
+text-align: center !important;
+font-family: 'Bitcount Grid Single';
+}
+
+.cave-grid, .mound-grid {
+background: rgba(0, 0, 0, 0.5) !important;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+}
+
+.cave-grid:hover, .mound-grid:hover {
+text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF !important;
+transition: 0.8s !important;
+}
+
+div.cave-grid>img {
+content: url('https://iili.io/KZBOdKX.jpg') !important;
+}
+
+div.mound-grid>img {
+content: url('https://iili.io/KtLA5kx.jpg') !important;
+}
+
+a:link, a:visited {
+color: #FFFFFF !important;
+}
+
+a:hover {
+color: #FFFFFF !important;
+transition: 0.8s !important;
+}
+
+topbar a:link {
+color: #FFFFFF !important;
+transition: 0.8s !important;
+}
+
+.alert-danger, .alert-success, .attack-won, .attack-lost {
+background: #000000 !important;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+text-align: center !important;
+}
+
+.progress {
+background: #1F1F1F !important;
+border: none !important;
+}
+
+.progress div {
+color: #FFFFFF !important;
+}
+
+.progress-bar {
+background: #C2708B !important;
+}
+
+.progress-bar-warning {
+background: #C2708B !important;
+}
+
+.progress-bar-danger {
+background: #C2708B !important;
+}
+
+.progress-bar-success {
+background: #C2708B !important;
+}
+
+/* SB Icon */
+img[src$="silver.png"] {
+content: url('https://iili.io/KtEjjFn.jpg') !important;
+width: 20px !important;
+}
+
+/* GB Icon */
+img[src$="gold.png"] {
+content: url('https://iili.io/KtEwFNR.jpg') !important;
+width: 20px !important;
+}
+    
+#commentBox {
+background: rgba(0, 0, 0, 0.5) !important;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+}
