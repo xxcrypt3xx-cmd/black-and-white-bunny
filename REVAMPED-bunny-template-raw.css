@@ -6,9 +6,17 @@ color: none !important;
 background-size: cover !important;
 }
 
+#commentBox {
+background: rgba(0, 0, 0, 0.5) !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+}
+
 .col-md-9.col-xs-12 {
 background: none !important;
-border: 4px double #FFFFFF !important;
+border: 4px double #ffffff !important;
 border-top: none !important;
 border-right: none !important;
 border-bottom: none !important;
@@ -16,13 +24,13 @@ border-bottom: none !important;
 
 div.container.main {
 background: rgba(0, 0, 0, 0.5) !important;
-border: 1px solid #FFFFFF !important;
+border: 1px solid #ffffff !important;
 border-radius: 15px !important;
 }
 
 .navbar {
 background: #000000 !important;
-border: 1px solid #FFFFFF !important;
+border: 1px solid #ffffff !important;
 border-bottom: none !important;
 border-top: none !important;
 border-right: none !important;
@@ -32,14 +40,14 @@ font-family: 'Bitcount Grid Single';
 }
 
 navbar li a {
-color: #FFFFFF !important;
+color: #ffffff !important;
 }
 
 .navbar li a:hover {
 background: none !important;
-color: #FFFFFF !important;
-border: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 40px #FFFFFF;
-text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+color: #ffffff !important;
+border: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
 transition: 0.8s !important;
 }
 
@@ -50,159 +58,57 @@ width: 100px;
 
 .breadcrumb {
 background: #000000 !important;
-color: #FFFFFF !important;
-border: 1px solid #FFFFFF !important;
+color: #fffffff !important;
+border: 1px solid #ffffff !important;
 border-radius: 15px !important;
 }
+
 
 .breadcrumb::after {
 content: "CSS by Blub-Blub (#519615)";
 position: absolute;
 right: 20%;
 z-index: 100;
-color: #FFFFFF;
+color: #ffffff;
 }
 
 .feature {
-background: #000000 !important;
-color: #FFFFFF !important;
-border: 1px solid #FFFFFF !important;
+background: #________ !important;
+color: #________ !important;
+border: 1px solid #________ !important;
 border-radius: 15px !important;
 }
 
 .topbar {
 background: #000000 !important;
-color: #FFFFFF !important;
+color: #ffffff !important;
 border: none !important;
 border-top: none !important;
-border-bottom: 4px solid #FFFFFF !important;
+border-bottom: 4px solid #ffffff !important;
 }
 
-.sidebar {
+.sidebar, .table {
 background: none !important;
-color: #FFFFFF !important;
+color: #ffffff !important;
 border: none !important;
 }
 
 .panel {
 background: #000000 !important;
-border: 1px solid #FFFFFF !important;
+border: 1px solid #ffffff !important;
 border-radius: 15px !important;
 box-shadow: none !important;
 }
 
-.s-chat-message-nth:child(even) {
-background: #0000000 !important;
-color: #FFFFFFF !important;
-border: 1px solid #FFFFFF !important;
-}
-
-.s-chat-message-nth:child(odd) {
-background: #1F1F1F !important;
-color: #FFFFFF !important;
-border: 1px solid #FFFFFF !important;
-}
-
-.s-chat-message_timestamp {
-color: #FFFFFF !important;
-}
-
-.s-chat-message_content {
-background: none !important;
-color: #FFFFFF !important;
-border: none !important;
-}
-
-#chatMessageContainer {
-color: #FFFFFFF !important;
-border: none !important;
-}
-
-button#label_currentChannel {
-background: #000000 !important;
-color: #FFFFFFF !important;
-border: none !important;
-}
-
-#chatMessagePinned {
-background: #0000000 !important;
-color: #FFFFFFF !important;
-border: none !important;
-}
-
-h1 {
-text-align: left !important;
-color: #FFFFFF !important;
-font-family: 'Bitcount Grid Single';
-}
-
-h3 {
-text-align: center !important;
-color: #FFFFFF !important;
-font-family: 'Bitcount Grid Single';
-}
-
-.top, th, .bottom, .left, td, .right_cub {
-background: #000000 !important;
-color: #FFFFFFF !important;
-border: 1px solid #FFFFFFF !important;
-text-align: center !important;
-font-family: 'Bitcount Grid Single';
-}
-
-.cave-grid, .mound-grid {
-background: rgba(0, 0, 0, 0.5) !important;
-color: #FFFFFF !important;
-border: 1px solid #FFFFFF !important;
-border-radius: 15px !important;
-}
-
-.cave-grid:hover, .mound-grid:hover {
-text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF !important;
-transition: 0.8s !important;
-}
-
-div.cave-grid>img {
-content: url('https://iili.io/KZBOdKX.jpg') !important;
-}
-
-div.mound-grid>img {
-content: url('https://iili.io/KtLA5kx.jpg') !important;
-}
-
-a:link, a:visited {
-color: #FFFFFF !important;
-}
-
-a:hover {
-color: #FFFFFF !important;
-transition: 0.8s !important;
-}
-
-topbar a:link {
-color: #FFFFFF !important;
-transition: 0.8s !important;
-}
-
-.alert-danger, .alert-success, .attack-won, .attack-lost {
-background: #000000 !important;
-color: #FFFFFF !important;
-border: 1px solid #FFFFFF !important;
-border-radius: 15px !important;
-text-align: center !important;
-}
 
 .progress {
-background: #1F1F1F !important;
-border: none !important;
+background: #000000 !important;
+border: 1px solid #ffffff !important;
+border-radius: 15px !important;
 }
 
 .progress div {
-color: #FFFFFF !important;
-}
-
-.progress-bar {
-background: #C2708B !important;
+color: #ffffff !important;
 }
 
 .progress-bar-warning {
@@ -217,22 +123,237 @@ background: #C2708B !important;
 background: #C2708B !important;
 }
 
-/* SB Icon */
-img[src$="silver.png"] {
-content: url('https://iili.io/KtEjjFn.jpg') !important;
-width: 20px !important;
+.progress-bar {
+background: #C2708B !important;
 }
 
-/* GB Icon */
-img[src$="gold.png"] {
-content: url('https://iili.io/KtEwFNR.jpg') !important;
-width: 20px !important;
+.s-chat-message:nth-child(even) {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px dashed #ffffff !important;
 }
-    
-#commentBox {
+
+.s-chat-message:nth-child(odd) {
+background: #1f1f1f !important;
+color: #ffffff !important;
+border: 1px dashed #ffffff !important;
+}
+
+.s-chat-message_timestamp {
+color: #ffffff !important;
+}
+
+#chatMessageContainer {
+background: #000000 !important;
+color: #ffffff !important;
+border: none !important;
+}
+
+button#label_currentChannel {
+background: #000000 !important;
+color: #ffffff !important;
+border: none !important;
+}
+
+.s-chat-message_content {
+background: none !important;
+color: #ffffff !important;
+border: none !important;
+}
+
+div#chatMessagePinned {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+}
+
+h1 {
+text-align: left !important;
+color: #ffffff !important;
+font-family: 'Bitcount Grid Single';
+}
+
+h3 {
+text-align: center !important;
+color: #ffffff !important;
+font-family: 'Bitcount Grid Single';
+}
+
+.top, th, .bottom, .left, .right_cub {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+font-family: 'Bitcount Grid Single';
+}
+
+td.right {
 background: rgba(0, 0, 0, 0.5) !important;
-color: #FFFFFF !important;
-border: 1px solid #FFFFFF !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+font-family: 'Bitcount Grid Single';
+}
+
+td.right_odd {
+background: rgba(0, 0, 0, 0.5) !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+font-family: 'Bitcount Grid Single';
+}
+
+.cave-grid, .mound-grid {
+background: rgba(0,0,0,0.5) !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
 border-radius: 15px !important;
+}
+
+.cave-grid:hover, .mound-grid:hover {
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff !important;
+transition: 0.8s !important;
+}
+
+div.cave-grid>img {
+content: url('https://iili.io/KZBOdKX.jpg') !important;
+width: 100% !important;
+height: 100% !important;
+}
+
+div.mound-grid>img {
+content: url('https://iili.io/KtLA5kx.jpg') !important;
+width: 100% !important;
+height: 100% !important;
+}
+
+a:link, a:visited {
+color: #C2708B !important;
+}
+
+a:hover {
+color: #C2708B !important;
+text-shadow: 0 0 5px #C2708B, 0 0 10px #C2708B, 0 0 20px #C2708B !important;
+transition: 0.8s !important;
+}
+
+topbar a:link {
+color: #C2708B !important;
+transition: 0.8s !important;
+}
+
+.topbar a:visited {
+color: #C2708B !important;
+}
+
+.topbar a:hover {
+color: #C2708B !important;
+}
+
+.alert-danger, .alert-success, .attack-won, .attack-lost {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+border-radius: 15px !important;
+text-align: center !important;
+}
+
+input[type="button"] {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="submit"] {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="text"] {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="password"] {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+textarea {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+select {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="button"]:hover {
+background: #C2708B !important;
+color: #C2708B !important;
+border: 1px solid #C2708B !important;
+text-align: center !important;
+text-shadow: 0 0 5px #C2708B, 0 0 10px #C2708B, 0 0 20px #C2708B !important;
+transition: 0.8s !important;
+box-shadow: none !important;
+}
+
+input[type="text]:focus {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="password"]:focus {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+textarea:focus {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+select:focus {
+background: #000000 !important;
+color: #ffffff !important;
+border: 1px solid #ffffff !important;
+text-align: center !important;
+text-shadow: none !important;
 box-shadow: none !important;
 }
